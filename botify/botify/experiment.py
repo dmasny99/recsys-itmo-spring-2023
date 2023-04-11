@@ -66,5 +66,7 @@ class Experiments:
     CONTEXTUAL = Experiment("CONTEXTUAL", Split.HALF_HALF)
     RECOMMENDERS = Experiment("RECOMMENDERS", Split.SEVEN_WAY)
 
+    CUSTOM_CONTEXTUAL = Experiment("CUSTOM_CONTEXTUAL", Split.HALF_HALF)
+
     def __init__(self):
-        self.experiments = [Experiments.RECOMMENDERS]
+        self.experiments = [Experiments.CUSTOM_CONTEXTUAL]

@@ -3,7 +3,10 @@ sim/out/
 __pycache__
 botify/log/*
 .DS_Store
-
+**/.ipynb_checkpoints
+data_seminar_04.json
+**/version*
+**/sim_env
 # LaTeX
 *.aux
 *.glo
